@@ -7,7 +7,7 @@ print("Checking for broken symlinks...")
 links = []
 broken = []
 
-curr_txt_files = glob.iglob('C:\\git_intg_cleanup\\fusion\\11.13.20.01' + '\\**\\*.txt', recursive=True)
+curr_txt_files = glob.iglob('C:\\git_intg_cleanup\\' + '\\**\\*.txt', recursive=True)
 
 for itm in curr_txt_files:
     head,tail = os.path.split(itm)
